@@ -1,0 +1,42 @@
+.about-container-company {
+    padding: 60px 300px;
+
+    .about-company-title {
+        position: relative;
+
+        font-size: 40px;
+        padding-bottom: 7px;
+
+        &:after {
+            position: absolute;
+            content: '';
+
+            border-bottom: 7px solid rgba(231, 53, 41, 1);
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 30%;
+            margin: 0 35%;
+            height: 7px;
+        }
+    }
+
+    .about-comp {
+        display: grid;
+        grid-template-columns: 65% 30%;
+        row-gap: 5%;
+        margin-top: 25px;
+
+        .about-comp-text {
+            font-size: 14pt;
+            margin-right: 30px;
+        }
+
+        .about-comp-picture {
+            background: url('/images/pic2.png');
+            background-repeat: no-repeat;
+            background-size: 140%;
+            width: 100%;
+        }
+    }
+}
