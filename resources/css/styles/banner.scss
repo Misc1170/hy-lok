@@ -1,0 +1,17 @@
+.banner-with-text {
+    width: 100%;
+    background: url('/images/bg2.png') top center no-repeat;
+
+    .text-on-banner {
+        display: flex;
+        justify-content: end;
+        padding: 40px 300px;
+
+        h1 {
+            font-size: 40px;
+            font-weight: 200;
+            color: white;
+        }
+    }
+}
+

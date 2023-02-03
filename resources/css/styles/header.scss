@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+
+    .header-logo {
+        a {
+            display: block;
+            height: 33px;
+
+            img {
+                min-width: inherit;
+                width: inherit;
+                max-width: inherit;
+
+                min-height: inherit;
+                height: inherit;
+                max-height: inherit;
+            }
+        }
+    }
+    .header-items {
+        display: inherit;
+        flex-direction: row;
+
+        a {
+            text-align: center;
+            font-size: 18px;
+
+            padding: 0 2em;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+footer {
+    padding: 25px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 250px;
+    background: rgba(39, 39, 39, 1);
+    align-items: center;
+
+    .footer-items {
+        display: inherit;
+        flex-direction: row;
+
+        a {
+            font-size: 18px;
+            padding: 0 2em;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+.about-container-hy-lok {
+    padding: 20px 300px;
+    background-color: rgba(247, 247, 247, 1);
+
+    .text-under-banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .text-under-banner-1 {
+            h1 {
+                color: rgba(33, 37, 41, 1);
+                font-size: 40px;
+                font-weight: 200;
+            }
+        }
+
+        .text-under-banner-2 {
+
+            p {
+                font-size: 18px;
+
+                margin: 10px 0;
+            }
+        }
+    }
+}

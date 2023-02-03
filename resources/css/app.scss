@@ -1,0 +1,29 @@
+// Необходимо создавать файлы классов программным путём, исключая изменения файлов в папке public
+
+body {
+    min-width: 100vw;
+    min-height: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+a, p, h1, span, ul, li {
+    font-family: 'Open Sans';
+}
+
+p, ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+@import "styles/header";
+@import "styles/banner";
+@import "styles/about-hy-lok";
+@import "styles/about-company";
+@import "styles/catalogue";
+@import "styles/footer";
