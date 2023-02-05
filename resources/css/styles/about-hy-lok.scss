@@ -1,10 +1,10 @@
 .about-container-hy-lok {
-    padding: 20px 300px;
+    padding: 20px 200px;
     background-color: rgba(247, 247, 247, 1);
 
     .text-under-banner {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 35% 65%;
 
         .text-under-banner-1 {
             h1 {

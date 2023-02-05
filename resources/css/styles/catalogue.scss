@@ -1,5 +1,5 @@
 .catalogue-container {
-    padding: 0 300px;
+    padding: 0 200px;
 
     .catalogue-title {
         position: relative;
@@ -23,25 +23,19 @@
     }
 
     .catalog {
-        margin: 4em 0;
+        margin: 2em 0;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 31%);
         grid-auto-rows: auto;
-        row-gap: 40px;
+        gap: 40px 40px;
 
         .catalog-item {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: baseline;
-
             height: 100%;
-            width: 364px;
-            max-width: 364px;
-
-
             margin: auto;
-            padding-bottom: 30px;
 
             a {
                 text-align: center;

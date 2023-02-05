@@ -1,0 +1,53 @@
+.catalogue-pdf-container {
+    padding: 0 200px;
+
+    .catalogue-pdf-title {
+        position: relative;
+        //width: fit-content;
+        //margin: auto;
+        font-size: 40px;
+        padding-bottom: .25em;
+
+        &:after {
+            position: absolute;
+            content: '';
+
+            border-bottom: 7px solid rgba(231, 53, 41, 1);
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 8%;
+            margin: 0 17%;
+            height: 7px;
+        }
+    }
+
+    .catalog-pdf {
+        margin: 2em 0;
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-auto-rows: auto;
+        //row-gap: 40px;
+
+        .catalog-pdf-item {
+            display: flex;
+            //flex-direction: column;
+            //justify-content: space-between;
+            align-items: baseline;
+            height: 100%;
+
+
+            margin: auto;
+            padding-bottom: 30px;
+
+            a {
+                text-align: center;
+                display: block;
+                img {
+                    width: inherit;
+                    height: inherit;
+                }
+            }
+        }
+    }
+}
