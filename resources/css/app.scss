@@ -21,6 +21,8 @@ ul {
     padding: 0;
 }
 
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 @import "styles/header";
 @import "styles/banner";
 @import "styles/about-hy-lok";
@@ -29,3 +31,5 @@ ul {
 @import "styles/catalogue-pdf";
 @import "styles/certificate";
 @import "styles/footer";
+@import "styles/adaptiveMedia";
+

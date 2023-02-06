@@ -4,12 +4,12 @@
     </div>
     <div class="catalog-pdf">
         @foreach($catalogs as $title=>$link)
-        <div class="catalog-pdf-item">
-            <a style="" href="{{$link}}">
-                <img src="/images/pdfo.png" alt="">
-                <p>{{$title}}</p>
-            </a>
-        </div>
+            <div class="catalog-pdf-item">
+                <a style="" href="{{$link}}">
+                    <img src="/images/pdfo.png" alt="">
+                    <p>{{$title}}</p>
+                </a>
+            </div>
         @endforeach
     </div>
 </div>

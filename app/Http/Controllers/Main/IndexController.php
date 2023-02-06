@@ -26,6 +26,6 @@ class IndexController extends Controller
             'Каталог технологических манифольдов Hy-Lok' => "https://fluid-line.ru/assets/docs/manifold_technolog_ru.pdf",
         ];
 
-        return view('index.home', compact('catalogs'));
+        return view('index.home', compact('catalogs',));
     }
 }

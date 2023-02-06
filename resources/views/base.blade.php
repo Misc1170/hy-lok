@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>Hy-Lok</title>
 
+    <script src="{{ asset('js/app.js') }}"></script>
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

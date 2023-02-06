@@ -1,22 +1,63 @@
+//@use "sass:map";
+
 footer {
-    padding: 25px 300px;
-    display: flex;
+  @media screen and (max-width: 1400px){
+    max-width: 1320px;
+    background: red;
+    height: 100%;
+  }
+  @media screen and (max-width: 1200px){
+    max-width: 1140px;
+    background: blue;
+    height: 100%;
+  }
+  @media screen and (max-width: 992px){
+    max-width: 960px;
+    background: red;
+    height: 100%;
+  }
+  //@media screen and (max-width: map.get($grid-breakpoints, "xxl")) {
+  //  background: red;
+  //}
+  //
+  //@media screen and (max-width: map.get($grid-breakpoints, "xl")) {
+  //  background: blue;
+  //
+  //}
+  //
+  //@media screen and (max-width: map.get($grid-breakpoints, "lg")) {
+  //  background: red;
+  //
+  //}
+  //
+  //@media screen and (max-width: map.get($grid-breakpoints, "md")) {
+  //}
+  //
+  //@media screen and (max-width: map.get($grid-breakpoints, "sm")) {
+  //}
+  //
+  //@media screen and (max-width: map.get($grid-breakpoints, "xs")) {
+  //}
+  padding: 25px 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 250px;
+  background: rgba(39, 39, 39, 1);
+  align-items: center;
+
+  .footer-items {
+    display: inherit;
     flex-direction: row;
-    justify-content: space-between;
-    height: 250px;
-    background: rgba(39, 39, 39, 1);
-    align-items: center;
 
-    .footer-items {
-        display: inherit;
-        flex-direction: row;
-
-        a {
-            font-size: 18px;
-            padding: 0 2em;
-            text-decoration: none;
-            color: white;
-        }
+    a {
+      font-size: 18px;
+      padding: 0 2em;
+      text-decoration: none;
+      color: white;
     }
+  }
+
+
 }
 
