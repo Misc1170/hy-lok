@@ -1,26 +1,45 @@
 .about-container-hy-lok {
-    padding: 20px 200px;
-    background-color: rgba(247, 247, 247, 1);
+  padding: 1% 15%;
+  background-color: rgba(247, 247, 247, 1);
 
-    .text-under-banner {
-        display: grid;
-        grid-template-columns: 35% 65%;
+  .text-under-banner {
+    display: grid;
+    grid-template-columns: 35% 65%;
 
-        .text-under-banner-1 {
-            h1 {
-                color: rgba(33, 37, 41, 1);
-                font-size: 40px;
-                font-weight: 200;
-            }
-        }
-
-        .text-under-banner-2 {
-
-            p {
-                font-size: 18px;
-
-                margin: 10px 0;
-            }
-        }
+    .text-under-banner-2 {
+      p {
+        font-size: 1.5vw;
+        margin: 0 auto;
+      }
     }
+    .text-under-banner-1 {
+      h1 {
+        color: rgba(33, 37, 41, 1);
+        font-size: 4vw;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+  }
+
+  @media screen and (min-width: 576px) {
+    max-width: 100%;
+    height: auto;
+  }
+  @media screen and (min-width: 992px) {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (min-width: 1400px) {
+    max-width: 100%;
+    height: auto;
+  }
 }

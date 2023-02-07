@@ -1,21 +1,6 @@
 //@use "sass:map";
 
 footer {
-  @media screen and (max-width: 1400px){
-    max-width: 1320px;
-    background: red;
-    height: 100%;
-  }
-  @media screen and (max-width: 1200px){
-    max-width: 1140px;
-    background: blue;
-    height: 100%;
-  }
-  @media screen and (max-width: 992px){
-    max-width: 960px;
-    background: red;
-    height: 100%;
-  }
   //@media screen and (max-width: map.get($grid-breakpoints, "xxl")) {
   //  background: red;
   //}

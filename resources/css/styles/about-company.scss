@@ -1,22 +1,20 @@
 .about-container-company {
-  padding: 60px 200px;
+  padding: 1% 15%;
 
   .about-company-title {
     position: relative;
-    font-size: 40px;
-    padding-bottom: 7px;
+    font-size: 3vw;
 
     &:after {
       position: absolute;
       content: '';
-
-      border-bottom: 7px solid rgba(231, 53, 41, 1);
+      border-bottom: 0.5vw solid rgba(231, 53, 41, 1);
       bottom: 0;
       left: 0;
       right: 0;
       width: 30%;
       margin: 0 35%;
-      height: 7px;
+      height: 0.5vw;
     }
   }
 
@@ -24,17 +22,17 @@
     display: grid;
     grid-template-columns: 65% 30%;
     row-gap: 5%;
-    margin-top: 25px;
+    margin-top: 0.5vw;
     grid-auto-rows: minmax(100px, auto);
 
     .about-comp-text {
-      font-size: 14pt;
-      margin-right: 30px;
+      font-size: 1.2vw;
+      margin-right: 1vw;
     }
 
     .about-comp-picture {
-      background: url('/images/2011_1_1.png') no-repeat;
-      background-size: 160%;
+      background: url('/images/2011_1_1.png') left center no-repeat;
+      background-size: 180%;
       width: 100%;
     }
   }

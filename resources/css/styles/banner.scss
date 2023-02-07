@@ -4,46 +4,62 @@
 .banner-with-text {
   width: 100%;
   background: url('/images/bg2.png') top center no-repeat;
+  background-size: 100%;
 
   .text-on-banner {
     display: flex;
     justify-content: end;
-    padding: 40px 200px;
+    padding: 1% 15%;
 
     h1 {
-      font-size: 40px;
+      font-size: 2vw;
       font-weight: 200;
       color: white;
     }
   }
 
-  @media screen and (min-width: map.get($grid-breakpoints, "xxl")) {
+  @media screen and (max-width: 576px) {
     width: 100%;
   }
 
-  @media screen and (min-width: map.get($grid-breakpoints, "xl")) {
+  @media screen and (min-width: 576px) {
     width: 100%;
-
+  }
+  @media screen and (min-width: 992px) {
+    width: 100%;
   }
 
-  @media screen and (min-width: map.get($grid-breakpoints, "lg")) {
-    height: 100%;
-
+  @media screen and (min-width: 1200px) {
+    width: 100%;
   }
 
-  @media screen and (min-width: map.get($grid-breakpoints, "md")) {
-    height: 100%;
-
-  }
-
-  @media screen and (min-width: map.get($grid-breakpoints, "sm")) {
-    height: 100%;
-
-  }
-
-  @media screen and (min-width: map.get($grid-breakpoints, "xs")) {
-    height: 100%;
-
+  @media screen and (min-width: 1400px) {
+    max-width: 100%;
   }
 }
+
+
+//@media screen and (min-width: map.get($grid-breakpoints, "xxl")) {
+//  width: 100%;
+//}
+//
+//@media screen and (min-width: map.get($grid-breakpoints, "xl")) {
+//  width: 100%;
+//}
+//
+//@media screen and (min-width: map.get($grid-breakpoints, "lg")) {
+//  height: 100%;
+//}
+//
+//@media screen and (min-width: map.get($grid-breakpoints, "md")) {
+//  height: 100%;
+//}
+//
+//@media screen and (min-width: map.get($grid-breakpoints, "sm")) {
+//  height: 100%;
+//}
+//
+//@media screen and (min-width: map.get($grid-breakpoints, "xs")) {
+//  height: 100%;
+//}
 
