@@ -6,35 +6,20 @@
     align-items: center;
 
     @media screen and (max-width: 540px) {
-        width: 100%;
-        height: auto;
-        margin: auto;
     }
     @media screen and (min-width: 576px){
-        width: 100%;
-        height: auto;
-        margin: auto;
     }
     @media screen and (min-width: 992px){
-        width: 100%;
-        height: auto;
-        margin: auto;
     }
     @media screen and (min-width: 1200px){
-        width: 100%;
-        height: auto;
-        margin: auto;
     }
     @media screen and (min-width: 1400px){
-        width: 100%;
-        height: auto;
-        margin: auto;
     }
 
     .header-logo {
         a {
             display: block;
-            height: 3vw;
+            //height: 3vw;
 
             img {
                 min-width: inherit;

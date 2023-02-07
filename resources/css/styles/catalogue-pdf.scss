@@ -5,13 +5,13 @@
         position: relative;
         //width: fit-content;
         margin: auto;
-        font-size: 3vw;
+        font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 30px);
         //padding-bottom: .25em;
 
         &:after {
             position: absolute;
             content: '';
-            border-bottom: 0.5vw solid rgba(231, 53, 41, 1);
+            border-bottom: 0.4vw solid rgba(231, 53, 41, 1);
             bottom: 0;
             left: 0;
             right: 0;
@@ -43,6 +43,9 @@
                 img {
                     width: inherit;
                     height: inherit;
+                }
+                p{
+                    font-size: 1.5vw;
                 }
             }
         }

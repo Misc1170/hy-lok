@@ -23,23 +23,25 @@ footer {
   //
   //@media screen and (max-width: map.get($grid-breakpoints, "xs")) {
   //}
-  padding: 25px 300px;
+  //padding: 25px 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 250px;
+  justify-content: space-evenly;
+  height: 100%;
   background: rgba(39, 39, 39, 1);
   align-items: center;
 
   .footer-items {
     display: inherit;
     flex-direction: row;
+    gap: 2em;
 
     a {
-      font-size: 18px;
-      padding: 0 2em;
+      font-size: 1.5vw;
+      //padding: 0 2em;
       text-decoration: none;
       color: white;
+      text-align: center;
     }
   }
 

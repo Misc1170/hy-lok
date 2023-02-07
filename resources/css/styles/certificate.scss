@@ -1,39 +1,56 @@
 .certificate-container {
-  padding: 0 200px;
+  padding: 10px 15%;
   display: grid;
   grid-template-columns: 30% 70%;
   grid-auto-rows: auto;
 
   .certificate-title div {
-
-    font-size: 40px;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 30px);
     position: relative;
-    padding-bottom: 7px;
+    //padding-bottom: 7px;
     justify-content: start;
 
     &:after {
       position: absolute;
       content: '';
-      border-bottom: 7px solid rgba(231, 53, 41, 1);
+      border-bottom: 0.4vw solid rgba(231, 53, 41, 1);
       bottom: 0;
       left: 0;
       right: 0;
       width: 20%;
       margin: 0 45%;
-      height: 7px;
+      height: 0.5vw;
     }
   }
 
   .certificate-list {
     display: grid;
-    grid-template-columns: repeat(4, 20%);
+    grid-template-columns: repeat(4, 25%);
     grid-auto-rows: auto;
     justify-content: end;
 
     .certificate-item {
-      background-size: 140%;
       height: 200px;
       width: 200px;
+    }
+    .certificate-picture-1{
+      background: url("/images/image_11.png") no-repeat;
+      background-size: 75%;
+    }
+    .certificate-picture-2{
+      background: url("/images/image_12.png") no-repeat;
+      background-size: 75%;
+
+    }
+    .certificate-picture-3{
+      background: url("/images/image_13.png") no-repeat;
+      background-size: 75%;
+
+    }
+    .certificate-picture-4{
+      background: url("/images/image_14.png") no-repeat;
+      background-size: 75%;
+
     }
   }
 }

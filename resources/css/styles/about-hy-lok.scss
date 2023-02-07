@@ -8,14 +8,16 @@
 
     .text-under-banner-2 {
       p {
-        font-size: 1.5vw;
+        //font-size: 1.5vw;
+        font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
         margin: 0 auto;
       }
     }
     .text-under-banner-1 {
       h1 {
         color: rgba(33, 37, 41, 1);
-        font-size: 4vw;
+        font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
+        //font-size: 4vw;
         margin: 0 auto;
       }
     }

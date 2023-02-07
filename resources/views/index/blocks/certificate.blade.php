@@ -5,9 +5,9 @@
         </div>
     </div>
     <div class="certificate-list">
-        <div class="certificate-item" style="background: url('/images/image_11.png') no-repeat"></div>
-        <div class="certificate-item" style="background: url('/images/image_12.png') no-repeat"></div>
-        <div class="certificate-item" style="background: url('/images/image_13.png') no-repeat"></div>
-        <div class="certificate-item" style="background: url('/images/image_14.png') no-repeat"></div>
+        <div class="certificate-item certificate-picture-1"></div>
+        <div class="certificate-item certificate-picture-2"></div>
+        <div class="certificate-item certificate-picture-3"></div>
+        <div class="certificate-item certificate-picture-4"></div>
     </div>
 </div>

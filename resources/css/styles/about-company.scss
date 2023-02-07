@@ -1,14 +1,15 @@
 .about-container-company {
   padding: 1% 15%;
 
+
   .about-company-title {
     position: relative;
-    font-size: 3vw;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 30px);
 
     &:after {
       position: absolute;
       content: '';
-      border-bottom: 0.5vw solid rgba(231, 53, 41, 1);
+      border-bottom: 0.4vw solid rgba(231, 53, 41, 1);
       bottom: 0;
       left: 0;
       right: 0;
@@ -26,7 +27,7 @@
     grid-auto-rows: minmax(100px, auto);
 
     .about-comp-text {
-      font-size: 1.2vw;
+      font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 16px);
       margin-right: 1vw;
     }
 
@@ -36,4 +37,25 @@
       width: 100%;
     }
   }
+
+  //@media screen and (max-width: 576px) {
+  //    font-size: 10px;
+  //}
+  //
+  //@media screen and (min-width: 576px) {
+  //    font-size: 13px;
+  //}
+  @media screen and (min-width: 992px) {
+    .about-comp-text {
+      display: block;
+    }
+  }
+  //
+  //@media screen and (min-width: 1200px) {
+  //      font-size: 18px;
+  //}
+  //
+  //@media screen and (min-width: 1400px) {
+  //    font-size: 20px;
+  //}
 }
