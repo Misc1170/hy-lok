@@ -1,7 +1,7 @@
 <div class="certificate-container">
     <div class="certificate-title">
         <div>
-            <p>СЕРТИФИКАТЫ</p>
+            <p style="margin-bottom: 0">СЕРТИФИКАТЫ</p>
         </div>
     </div>
     <div class="certificate-list">

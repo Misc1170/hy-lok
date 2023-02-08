@@ -3,12 +3,14 @@
   display: grid;
   grid-template-columns: 30% 70%;
   grid-auto-rows: auto;
+  //padding: 10px;
 
   .certificate-title div {
-    font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 30px);
+    display: grid;
+    font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 30px);
     position: relative;
-    //padding-bottom: 7px;
-    justify-content: start;
+    //padding-bottom: .25em;
+    justify-content: center;
 
     &:after {
       position: absolute;
@@ -18,39 +20,77 @@
       left: 0;
       right: 0;
       width: 20%;
-      margin: 0 45%;
+      margin: 0 55%;
       height: 0.5vw;
     }
   }
 
   .certificate-list {
+    //  display: grid;
+    //  grid-template-columns: repeat(4, 200px);
+    //  grid-auto-rows: auto;
+    //  justify-content: center;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-auto-rows: auto;
-    justify-content: end;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 140px);
+    grid-template-rows: auto;
+    justify-content: center;
 
     .certificate-item {
       height: 200px;
       width: 200px;
     }
-    .certificate-picture-1{
-      background: url("/images/image_11.png") no-repeat;
+
+    .certificate-picture-1 {
+      background: url("/images/image_11.png") top right no-repeat;
       background-size: 75%;
+      justify-self: center;
     }
-    .certificate-picture-2{
-      background: url("/images/image_12.png") no-repeat;
+
+    .certificate-picture-2 {
+      background: url("/images/image_12.png") top right no-repeat;
       background-size: 75%;
+      justify-self: center;
 
     }
-    .certificate-picture-3{
-      background: url("/images/image_13.png") no-repeat;
+
+    .certificate-picture-3 {
+      background: url("/images/image_13.png") top right no-repeat;
       background-size: 75%;
+      justify-self: center;
 
     }
-    .certificate-picture-4{
-      background: url("/images/image_14.png") no-repeat;
+
+    .certificate-picture-4 {
+      background: url("/images/image_14.png") top right no-repeat;
       background-size: 75%;
+      justify-self: center;
 
     }
   }
+
+  //@media screen and (max-width: 1440px){
+  //  .certificate-title div p {
+  //    font-size: 30px;
+  //  }
+  //}
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 70%;
+    .certificate-title div p {
+      font-size: 25px;
+    }
+  }
+
+  //@media screen and (max-width: 992px) {
+  //  .certificate-title div p {
+  //    font-size: 20px;
+  //  }
+  //}
+  //
+  //@media screen and (max-width: 576px) {
+  //  .certificate-title div p {
+  //    font-size: 15px;
+  //  }
+  //}
+
 }

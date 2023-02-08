@@ -1,53 +1,78 @@
 .catalogue-pdf-container {
-    padding: 1% 15%;
+  padding: 1% 15%;
 
-    .catalogue-pdf-title {
-        position: relative;
-        //width: fit-content;
-        margin: auto;
-        font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 30px);
-        //padding-bottom: .25em;
 
-        &:after {
-            position: absolute;
-            content: '';
-            border-bottom: 0.4vw solid rgba(231, 53, 41, 1);
-            bottom: 0;
-            left: 0;
-            right: 0;
-            width: 10%;
-            margin: 0 15%;
-            height: 0.2vw;
-        }
+  .catalogue-pdf-title {
+    position: relative;
+    //margin: auto;
+    font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 26px);
+    margin-bottom: 30px;
+    width: fit-content;
+
+
+    &:after {
+      position: absolute;
+      content: '';
+      border-bottom: 0.4vw solid rgba(231, 53, 41, 1);
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 25%;
+      margin: -3% 40%;
+      height: 0.2vw;
     }
+  }
 
+  .catalog-pdf {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-auto-rows: auto;
+    justify-content: center;
+
+    .catalog-pdf-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      //align-items: baseline;
+      height: 100%;
+      width: 100px;
+      margin: auto;
+      padding-bottom: 5%;
+
+      a {
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: black;
+
+        img {
+          width: inherit;
+          height: inherit;
+          max-width: 300px;
+        }
+
+        p {
+          margin-top: 1%;
+          //font-size: 1.5vw;
+          font-size: calc((100vw - 480px) / 800 * 8 + 13px);
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
     .catalog-pdf {
-        //margin: 2em 0;
-        display: grid;
-        grid-template-columns: repeat(5, 20%);
-        //grid-auto-rows: auto;
-        //row-gap: 40px;
-
-        .catalog-pdf-item {
-            display: flex;
-            //flex-direction: column;
-            //justify-content: space-between;
-            align-items: baseline;
-            height: 100%;
-            margin: auto;
-            padding-bottom: 5%;
-
-            a {
-                text-align: center;
-                display: block;
-                img {
-                    width: inherit;
-                    height: inherit;
-                }
-                p{
-                    font-size: 1.5vw;
-                }
-            }
-        }
+      grid-template-columns: repeat(4, 25%);
     }
+  }
+  @media screen and (max-width: 992px) {
+    .catalog-pdf {
+      grid-template-columns: repeat(3, 33%);
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .catalog-pdf {
+      grid-template-columns: repeat(2, 50%);
+    }
+  }
 }

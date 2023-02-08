@@ -1,35 +1,31 @@
 //@use "sass:map";
 
 footer {
-  //@media screen and (max-width: map.get($grid-breakpoints, "xxl")) {
-  //  background: red;
-  //}
-  //
-  //@media screen and (max-width: map.get($grid-breakpoints, "xl")) {
-  //  background: blue;
-  //
-  //}
-  //
-  //@media screen and (max-width: map.get($grid-breakpoints, "lg")) {
-  //  background: red;
-  //
-  //}
-  //
-  //@media screen and (max-width: map.get($grid-breakpoints, "md")) {
-  //}
-  //
-  //@media screen and (max-width: map.get($grid-breakpoints, "sm")) {
-  //}
-  //
-  //@media screen and (max-width: map.get($grid-breakpoints, "xs")) {
-  //}
-  //padding: 25px 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 100%;
   background: rgba(39, 39, 39, 1);
   align-items: center;
+  height: 100px;
+
+  .footer-logo {
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+
+      img {
+        min-width: inherit;
+        width: inherit;
+        max-width: inherit;
+
+        min-height: inherit;
+        height: inherit;
+        max-height: inherit;
+
+      }
+    }
+  }
 
   .footer-items {
     display: inherit;
@@ -37,14 +33,12 @@ footer {
     gap: 2em;
 
     a {
-      font-size: 1.5vw;
+      font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 10px);
       //padding: 0 2em;
       text-decoration: none;
       color: white;
       text-align: center;
     }
   }
-
-
 }
 
