@@ -25,7 +25,7 @@
   .catalog {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, 325px);
+    grid-template-columns: repeat(auto-fit, 320px);
     grid-template-rows: auto;
     justify-content: center;
     row-gap: 20px;
@@ -53,16 +53,16 @@
       }
 
       .head-name-catalog-item {
-        font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 12px);
+        font-size: 24px;
 
       }
 
       .describe-catalog-item {
-        font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 14px);
+        font-size: 24px;
 
 
         p {
-          font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 10px);
+          font-size: 24px;
 
         }
       }
@@ -76,25 +76,90 @@
       }
     }
   }
+
   @media screen and (max-width: 1400px) {
-    .catalogue-title {
-      font-size: 40px;
+    .catalog {
+      .catalogue-title {
+        font-size: 40px;
+      }
+
+      .catalog-item {
+        .head-name-catalog-item {
+          font-size: 24px;
+        }
+
+        .describe-catalog-item {
+          font-size: 24px;
+        }
+
+        .more-catalog-item {
+          font-size: 10px;
+          padding: 3%;
+        }
+      }
     }
   }
   @media screen and (max-width: 1200px) {
-    .catalogue-title {
-      font-size: 30px;
+    .catalog {
+      .catalogue-title {
+        font-size: 30px;
+      }
+
+      .catalog-item {
+
+        .head-name-catalog-item {
+          font-size: 22px;
+        }
+
+        .describe-catalog-item {
+          font-size: 22px;
+
+          p {
+            font-size: 22px;
+          }
+        }
+      }
     }
   }
   @media screen and (max-width: 992px) {
-    .catalogue-title {
-      font-size: 24px;
+    .catalog {
+      .catalogue-title {
+        font-size: 24px;
+      }
+
+      .catalog-item {
+
+        .head-name-catalog-item {
+          font-size: 17px;
+        }
+
+        .describe-catalog-item {
+          font-size: 17px;
+
+          p {
+            font-size: 17px;
+          }
+        }
+      }
     }
   }
   @media screen and (max-width: 576px) {
     padding: 1% 0;
-    .catalogue-title {
-      font-size: 22px;
+    .catalog {
+      .catalogue-title {
+        font-size: 21px;
+      }
+
+      .catalog-item {
+
+        .head-name-catalog-item {
+          font-size: 16px;
+        }
+
+        .describe-catalog-item {
+          font-size: 16px;
+        }
+      }
     }
   }
 }
