@@ -9,63 +9,15 @@
     .text-under-banner-1 {
       h1 {
         color: rgba(33, 37, 41, 1);
-        margin: 0 auto;
+        margin: 3% auto;
       }
+    }
+    .text-under-banner-2 p {
+      font-size: 24px;
     }
   }
 
-  @media screen and (max-width: 576px) {
-    .text-under-banner {
-      grid-template-columns: 100%;
-      row-gap: 10px;
-
-      .text-under-banner-1 {
-        margin: auto;
-
-        h1 {
-          justify-self: center;
-          font-size: 22px;
-        }
-      }
-
-      .text-under-banner-2 p {
-        font-size: 16px;
-      }
-    }
-  }
-  @media screen and (min-width: 576px) {
-    .text-under-banner {
-      .text-under-banner-1 h1 {
-          font-size: 22px;
-        }
-      }
-      .text-under-banner-2 p {
-        font-size: 16px;
-      }
-    }
-  @media screen and (min-width: 992px) {
-    .text-under-banner {
-      .text-under-banner-1 h1 {
-        font-size: 24px;
-      }
-
-      .text-under-banner-2 p {
-        font-size: 17px;
-      }
-    }
-  }
-  @media screen and (min-width: 1200px) {
-    .text-under-banner {
-      .text-under-banner-1 h1 {
-        font-size: 30px;
-      }
-
-      .text-under-banner-2 p {
-        font-size: 22px;
-      }
-    }
-  }
-  @media screen and (min-width: 1400px) {
+  @media screen and (max-width: 1400px) {
     .text-under-banner {
       .text-under-banner-1 h1 {
         font-size: 40px;
@@ -76,5 +28,56 @@
       }
     }
   }
+  @media screen and (max-width: 1200px) {
+    .text-under-banner {
+      .text-under-banner-1 h1 {
+        font-size: 30px;
+      }
+
+      .text-under-banner-2 p {
+        font-size: 22px;
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .text-under-banner {
+      .text-under-banner-1 h1 {
+        font-size: 24px;
+      }
+
+      .text-under-banner-2 p {
+        font-size: 17px;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .text-under-banner {
+      grid-template-columns: 100%;
+      row-gap: 10px;
+
+      .text-under-banner-1 {
+        margin: 3% auto;
+
+        h1 {
+          justify-self: center;
+          font-size: 24px;
+        }
+      }
+
+      .text-under-banner-2 p {
+        font-size: 16px;
+      }
+    }
+  }
+  //@media screen and (max-width: 576px) {
+  //  .text-under-banner {
+  //    .text-under-banner-1 h1 {
+  //        font-size: 24px;
+  //      }
+  //    }
+  //    .text-under-banner-2 p {
+  //      font-size: 16px;
+  //    }
+  //  }
 }
 

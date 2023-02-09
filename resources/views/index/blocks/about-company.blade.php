@@ -1,5 +1,5 @@
 <div class="about-container-company">
-    <span class="about-company-title">О КОМПАНИИ</span>
+    <div class="about-company-title">О КОМПАНИИ</div>
 
     <div class="about-comp">
         <div class="about-comp-text">

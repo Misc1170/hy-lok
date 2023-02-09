@@ -4,10 +4,9 @@
 
   .catalogue-pdf-title {
     position: relative;
-    //margin: auto;
-    font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 26px);
-    margin-bottom: 30px;
+    font-size: 40px;
     width: fit-content;
+    margin: 2%;
 
 
     &:after {
@@ -18,7 +17,7 @@
       left: 0;
       right: 0;
       width: 25%;
-      margin: -3% 40%;
+      margin: -1% 40%;
       height: 0.2vw;
     }
   }
@@ -28,12 +27,12 @@
     grid-template-columns: repeat(5, 20%);
     grid-auto-rows: auto;
     justify-content: center;
+    margin-top: 5%;
+    row-gap: 2%;
 
     .catalog-pdf-item {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      //align-items: baseline;
       height: 100%;
       width: 100px;
       margin: auto;
@@ -53,26 +52,78 @@
 
         p {
           margin-top: 1%;
-          //font-size: 1.5vw;
-          font-size: calc((100vw - 480px) / 800 * 8 + 13px);
+          font-size: 20px;
         }
+      }
+      p{
+        margin: 0 auto;
       }
     }
   }
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1400px) {
+    .catalogue-pdf-title{
+      font-size: 35px;
+    }
     .catalog-pdf {
       grid-template-columns: repeat(4, 25%);
     }
   }
+  @media screen and (max-width: 1200px) {
+    .catalogue-pdf-title{
+      font-size: 30px;
+    }
+    .catalog-pdf {
+      grid-template-columns: repeat(4, 25%);
+
+      .catalog-pdf-item {
+        a {
+          p {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
   @media screen and (max-width: 992px) {
+    .catalogue-pdf-title{
+      font-size: 24px;
+      margin: 2% auto;
+    }
     .catalog-pdf {
       grid-template-columns: repeat(3, 33%);
+
+      .catalog-pdf-item {
+        a {
+          p {
+            font-size: 17px;
+          }
+        }
+      }
     }
   }
   @media screen and (max-width: 576px) {
+    padding:0 3%;
+    .catalogue-pdf-title{
+      font-size: 22px;
+      margin-top: 15px;
+      &:after {
+        border-bottom: 1vw solid rgba(231, 53, 41, 1);
+      }
+    }
     .catalog-pdf {
       grid-template-columns: repeat(2, 50%);
+
+      .catalog-pdf-item {
+        a {
+          img{
+            max-width: 45%;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }
