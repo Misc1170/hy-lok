@@ -25,6 +25,7 @@
     row-gap: 2.5%;
     margin-top: 0.5vw;
     grid-auto-rows: minmax(100px, auto);
+    justify-content: space-between;
 
     .about-comp-text {
       font-size: 24px;

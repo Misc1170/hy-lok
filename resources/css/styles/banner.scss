@@ -10,7 +10,7 @@
   .text-on-banner {
     display: flex;
     justify-content: end;
-    padding: 0 15%;
+    padding: 4% 17%;
 
     h1 {
       margin: auto 0;
@@ -21,31 +21,39 @@
   }
 
   @media screen and (max-width: 1200px) {
-    .text-on-banner h1 {
-      font-size: 30px;
-    }
-  }
-  @media screen and (max-width: 992px) {
     .text-on-banner {
-      padding: 3% 15%;
+      padding: 2% 17%;
 
       h1 {
-        font-size: 18px;
+        font-size: 30px;
       }
+
     }
   }
 
-  @media screen and (max-width: 576px) {
-    width: 100%;
-    background: url('/images/bg2.png') top left no-repeat;
-    background-size: 246%;
-    height: 63vw;
-    .text-on-banner {
-    padding: 8% 14%;
-      .text-on-banner h1 {
-        font-size: 20px;
-      }
+@media screen and (max-width: 992px) {
+  .text-on-banner {
+    padding: 3% 15%;
+
+    h1 {
+      font-size: 18px;
     }
   }
+}
+
+@media screen and (max-width: 576px) {
+  width: 100%;
+  background: url('/images/bg2.png') top left no-repeat;
+  background-size: 246%;
+  height: 63vw;
+  .text-on-banner {
+    padding: 8% 14%;
+
+    .text-on-banner h1 {
+      font-size: 20px;
+    }
+  }
+}
+
 }
 

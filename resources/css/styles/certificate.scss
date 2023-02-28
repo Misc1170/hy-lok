@@ -1,5 +1,5 @@
 .certificate-container {
-  padding: 10px 15%;
+  padding: 30px 15%;
   display: grid;
   grid-template-columns: 30% 70%;
   grid-auto-rows: auto;
@@ -28,11 +28,11 @@
   }
 
   .certificate-list {
-    grid-template-columns: repeat(4, 22%);
-    justify-content: center;
+    grid-template-columns: repeat(4, 150px);
+    //justify-content: center;
     display: grid;
     grid-template-rows: auto;
-    justify-content: center;
+    justify-content: space-between;
 
     .certificate-item {
       height: 200px;
@@ -77,6 +77,12 @@
     .certificate-title div p {
       font-size: 30px;
     }
+    .certificate-list{
+      grid-template-columns: repeat(4,128px);
+      .certificate-item {
+        width: 120px;
+      }
+    }
   }
 
   @media screen and (max-width: 992px) {
@@ -87,6 +93,7 @@
         p {
           font-size: 24px;
         }
+
         &:after {
           width: 10%;
           margin: 0 45%;
@@ -103,26 +110,36 @@
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .certificate-list {
+
+      grid-template-columns: repeat(4, 100px);
+    }
+  }
 
   @media screen and (max-width: 576px) {
-      padding: 27% 5% 7%;
-      .certificate-title {
+    padding: 27% 5% 7%;
+    .certificate-title {
 
-        div {
-          p {
-            font-size: 22px;
-          }
-          &:after {
-            border-bottom: 1vw solid rgba(231, 53, 41, 1);
-          }
+      div {
+        p {
+          font-size: 22px;
+        }
+
+        &:after {
+          border-bottom: 1vw solid rgba(231, 53, 41, 1);
         }
       }
+    }
 
-      .certificate-list {
-        .certificate-item {
-          height: 30vw;
-          width: 22vw;
-        }
+    .certificate-list {
+      grid-template-columns: repeat(4, 75px);
+
+      .certificate-item {
+        height: 30vw;
+        width: 22vw;
       }
+    }
   }
 }
+

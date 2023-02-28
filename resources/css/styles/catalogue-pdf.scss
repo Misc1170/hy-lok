@@ -6,7 +6,7 @@
     position: relative;
     font-size: 40px;
     width: fit-content;
-    margin: 2%;
+    //margin: 2%;
 
 
     &:after {
@@ -17,16 +17,16 @@
       left: 0;
       right: 0;
       width: 25%;
-      margin: -1% 40%;
+      margin: -2% 40%;
       height: 0.2vw;
     }
   }
 
   .catalog-pdf {
     display: grid;
-    grid-template-columns: repeat(5, 20%);
+    grid-template-columns: repeat(5, 100px);
     grid-auto-rows: auto;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 5%;
     row-gap: 2%;
 
