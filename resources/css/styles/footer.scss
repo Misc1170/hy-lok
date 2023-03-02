@@ -49,12 +49,21 @@
     }
   }
   @media screen and (max-width: 992px) {
+    .footer-logo {
+      a {
+        img {
+          max-width: 160px;
+        }
+      }
+    }
+    .footer-items {
+      gap: 1em;
     font-size: 20px;
+    }
   }
   @media screen and (max-width: 768px) {
     .footer-items {
       flex-direction: column;
-      gap: 1em;
     }
   }
   @media screen and (max-width: 576px) {
@@ -63,8 +72,18 @@
     }
     .footer-items {
       flex-direction: column;
-      gap: 0.3em;
-    }
+      gap: 1.3em;
     font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 379px) {
+    .footer-logo {
+      a {
+        img {
+          max-width: 110px;
+        }
+      }
+    }
   }
 }

@@ -68,7 +68,7 @@
                     Креогенные</p>
                 <a class="more-catalog-item" href="https://fluid-line.ru/dozirovochnyie-ventili-hy-lok">ПОДРОБНЕЕ</a>
             </div>
-            <div class="catalog-item">
+            <div class="catalog-item" style="justify-content: unset">
                 <a href="https://fluid-line.ru">
                     <img src="images/manifoldo.png" alt="">
                 </a>

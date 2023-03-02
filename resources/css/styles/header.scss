@@ -63,4 +63,14 @@
     }
     font-size: 13px;
   }
+
+  @media screen and (max-width: 379px) {
+    .header-logo {
+      a {
+        img {
+          max-width: 110px;
+        }
+      }
+    }
+  }
 }
