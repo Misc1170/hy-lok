@@ -28,6 +28,7 @@
                     <img src="images/membrano.png" alt="">
                 </a>
                 <p class="head-name-catalog-item">МЕМБРАННЫЕ</p>
+                <p> </p>
                 <p class="describe-catalog-item">Назначение шаровых кранов Hy-Lok: - Интрументальные - На большое ДУ
                     - Креогенные</p>
                 <a class="more-catalog-item" href="https://fluid-line.ru/membrannyie-klapanyi-gazovyie-serii-dv">ПОДРОБНЕЕ</a>

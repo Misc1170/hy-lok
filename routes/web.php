@@ -18,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/',\App\Http\Controllers\Main\IndexController::class)->name('main.index');
+Route::get('/temp', function (){
+    return view('catalog2');
+});
