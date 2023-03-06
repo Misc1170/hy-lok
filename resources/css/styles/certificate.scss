@@ -1,4 +1,5 @@
 .certificate-container {
+  margin: 0.7rem;
   padding: 30px 15%;
   display: grid;
   grid-template-columns: 30% 70%;
@@ -18,7 +19,7 @@
       position: absolute;
       content: '';
       border-bottom: 0.4vw solid rgba(231, 53, 41, 1);
-      bottom: 0;
+
       left: 0;
       right: 0;
       width: 20%;

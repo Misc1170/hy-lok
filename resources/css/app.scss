@@ -1,5 +1,9 @@
 // Необходимо создавать файлы классов программным путём, исключая изменения файлов в папке public
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     min-width: 100vw;
     min-height: 100vw;

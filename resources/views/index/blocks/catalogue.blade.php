@@ -1,9 +1,56 @@
+{{--<div class="" style="padding: 1% 15%;">--}}
+{{--    <span class="flex text-4xl justify-center">КАТАЛОГ ПРОДУКЦИИ HY-LOK</span>--}}
+{{--    <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-3 my-3 justify-center">--}}
+{{--        <div class="grid">--}}
+{{--            <a style="" href="https://fluid-line.ru/krany">--}}
+{{--                <img src="images/ball.png" alt="">--}}
+{{--            </a>--}}
+{{--            <p class="">КРАНЫ ШАРОВЫЕКРАНЫ ШАРОВЫЕКРАНЫ ШАРОВЫЕ </p>--}}
+{{--            <p class="">Назначение шаровых кранов Hy-Lok: - Интрументальные - На большое ДУ ---}}
+{{--                Креогенные</p>--}}
+{{--            <a class="grid self-end bg-red-600 text-white p-1.5 text-decoration-none justify-baseline"--}}
+{{--               href="https://fluid-line.ru/krany">ПОДРОБНЕЕ</a>--}}
+{{--        </div>--}}
+{{--        <div class="grid">--}}
+{{--            <a style="" href="https://fluid-line.ru/krany">--}}
+{{--                <img src="images/ball.png" alt="">--}}
+{{--            </a>--}}
+{{--            <p class="">КРАНЫ ШАРОВЫЕ </p>--}}
+{{--            <p class="">Назначение шаровых кранов Hy-Lok: - Интрументальные - На большое ДУ ---}}
+{{--                Креогенные</p>--}}
+{{--            <a class="grid self-end bg-red-600 text-white p-1.5 text-decoration-none justify-baseline"--}}
+{{--               href="https://fluid-line.ru/krany">ПОДРОБНЕЕ</a>--}}
+{{--        </div>--}}
+{{--        <div class="grid">--}}
+{{--            <a style="" href="https://fluid-line.ru/krany">--}}
+{{--                <img src="images/ball.png" alt="">--}}
+{{--            </a>--}}
+{{--            <p class="">КРАНЫ ШАРОВЫЕ </p>--}}
+{{--            <p class="">Назначение шаровых кранов Hy-Lok: - Интрументальные - На большое ДУ ---}}
+{{--                Креогенные</p>--}}
+{{--            <a class="grid self-end bg-red-600 text-white p-1.5 text-decoration-none justify-baseline"--}}
+{{--               href="https://fluid-line.ru/krany">ПОДРОБНЕЕ</a>--}}
+{{--        </div>--}}
+{{--        <div class="grid">--}}
+{{--            <a style="" href="https://fluid-line.ru/krany">--}}
+{{--                <img src="images/ball.png" alt="">--}}
+{{--            </a>--}}
+{{--            <p class="">КРАНЫ ШАРОВЫЕ </p>--}}
+{{--            <p class="">Назначение шаровых кранов Hy-Lok: - Интрументальные - На большое ДУ ---}}
+{{--                Креогенные</p>--}}
+{{--            <a class="grid self-end bg-red-600 text-white p-1.5 text-decoration-none justify-baseline"--}}
+{{--               href="https://fluid-line.ru/krany">ПОДРОБНЕЕ</a>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
+
+
 <div class="catalogue-container">
     <div class="catalogue-title">
         <p>КАТАЛОГ ПРОДУКЦИИ HY-LOK</p>
     </div>
 
-{{--    <div class="row">--}}
+    <div class="row">
         <div class="catalog">
             <div class="catalog-item">
                 <a style="" href="https://fluid-line.ru/krany">
@@ -69,13 +116,13 @@
                     Креогенные</p>
                 <a class="more-catalog-item" href="https://fluid-line.ru/dozirovochnyie-ventili-hy-lok">ПОДРОБНЕЕ</a>
             </div>
-            <div class="catalog-item" style="justify-content: unset">
-                <a href="https://fluid-line.ru">
+            <div class="catalog-item">
+                <a class="text-decoration-none text-black" href="https://fluid-line.ru">
                     <img src="images/manifoldo.png" alt="">
+                <p class="head-name-catalog-item" style="margin-top: 2px">БОЛЬШЕ ПРОДУКЦИИ HY-LOK</p>
                 </a>
-                <p class="head-name-catalog-item">БОЛЬШЕ ПРОДУКЦИИ HY-LOK</p>
-                <a class="more-catalog-item" href="https://fluid-line.ru">ПОДРОБНЕЕ</a>
+                <a class="justify-self-end more-catalog-item" href="https://fluid-line.ru">ПОДРОБНЕЕ</a>
             </div>
         </div>
     </div>
-{{--</div>--}}
+</div>
